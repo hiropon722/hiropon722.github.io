@@ -1,0 +1,105 @@
+.container{
+  width: 870px;
+  margin:0 auto;
+}
+
+.top-logo {
+  width:124px;
+  margin:0 20px
+}
+
+.top-navi {
+  float:right;
+  margin: 0 20px;
+}
+
+.top-navi a {
+  text-decoration: none;
+  color: black;
+  font-size:14px;
+}
+
+.top-navi li {
+  float:left;
+  margin: 0 20px;
+  list-style:none;
+  padding-top:10px;
+  padding-left: 0;
+}
+
+.top-navi a:hover {
+  color:dimgrey;
+}
+
+.main-ground {
+  object-fit:cover;
+  width:100%;
+  height:600px;
+}
+
+.about {
+  margin: 0 auto;
+  width: 540px;
+}
+
+.profile-img {
+  object-fit: cover;
+  width:100px;
+  border-radius:50%;
+  float: left;
+}
+
+.about h1 {
+  text-decoration: underline;
+  text-align: center;
+  margin:60px 0;
+}
+
+.names {
+  display: inline-block;
+}
+
+.names h2 {
+  font-size:18px;
+  padding-left: 25%;
+}
+
+.names p {
+  font-size:14px;
+  padding-left:25%;
+}
+
+.bicycle {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.bicycle h1 {
+  text-decoration: underline;
+  text-align: center;
+  margin:60px 0;
+}
+
+.bicycle-img {
+  object-fit: cover;
+  height: 170px;
+  width:280px;
+}
+
+.bicycles {
+  display: flex;
+  justify-content:center;
+}
+
+.explan {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.explan h2 {
+ font-size:18px;
+}
+
+.explan p {
+font-size: 14px;
+}
