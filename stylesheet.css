@@ -1,105 +1,150 @@
-.container{
-  width: 870px;
-  margin:0 auto;
+.container {
+    width: 800px;
+    margin:0 auto;
 }
 
-.top-logo {
-  width:124px;
-  margin:0 20px
+.top {
+    height: 300px;
+    width:100%;
+    display: flex;
+
 }
 
-.top-navi {
-  float:right;
-  margin: 0 20px;
+
+.top a {
+    color:black;
+    text-decoration: none;
+    line-height: 300px;
 }
 
-.top-navi a {
-  text-decoration: none;
-  color: black;
-  font-size:14px;
+.logo {
+    font-size:24px;
+    margin-right:auto;
 }
 
-.top-navi li {
-  float:left;
-  margin: 0 20px;
-  list-style:none;
-  padding-top:10px;
-  padding-left: 0;
+.menu {
+    font-size:16px;
 }
 
-.top-navi a:hover {
-  color:dimgrey;
+.menu a {
+    padding: 0 10px;
 }
 
-.main-ground {
-  object-fit:cover;
-  width:100%;
-  height:600px;
+.menu a:hover {
+    color:dimgrey;
+  }
+
+.top-image {
+    object-fit:cover;
+    width:100%;
+    height:400px;
+    max-width: 1920px;
 }
 
-.about {
-  margin: 0 auto;
-  width: 540px;
-}
-
-.profile-img {
-  object-fit: cover;
-  width:100px;
-  border-radius:50%;
-  float: left;
+.picture {
+    margin:0;
+    padding: 0;
 }
 
 .about h1 {
-  text-decoration: underline;
-  text-align: center;
-  margin:60px 0;
+    text-align: center;
+    margin:50px;
+    font-size: 24px;
 }
 
-.names {
-  display: inline-block;
+.about-in {
+    margin-bottom:30px;
 }
 
-.names h2 {
-  font-size:18px;
-  padding-left: 25%;
+.about p {
+    font-size: 14px;
 }
 
-.names p {
-  font-size:14px;
-  padding-left:25%;
+.works h1 {
+    font-size:24px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:50px;
 }
 
-.bicycle {
-  margin: 0 auto;
-  width: 1000px;
+.pictures {
+    display:flex;
+    flex-wrap:wrap;
 }
 
-.bicycle h1 {
-  text-decoration: underline;
-  text-align: center;
-  margin:60px 0;
+.work-picture {
+    width:30%;
+    margin:10px;
 }
 
-.bicycle-img {
-  object-fit: cover;
-  height: 170px;
-  width:280px;
+.news h1 {
+    font-size:24px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:50px;
 }
 
-.bicycles {
-  display: flex;
-  justify-content:center;
+.newslist li {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid gray;
+    line-height: 25px;
 }
 
-.explan {
-  text-align: center;
-  margin: 0 10px;
+.newslist time {
+    padding: 0 20px;
 }
 
-.explan h2 {
- font-size:18px;
+.newslist p {
+    padding-left: 20px;
 }
 
-.explan p {
-font-size: 14px;
+.newslist li:last-child {
+    border-bottom: 1px solid gray;
+  }
+
+.contact h1 {
+    font-size:24px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+.name ,.mail ,.message{
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    
+}
+
+input,textarea {
+    width:100%;
+    border:1px solid gray;
+}
+
+.contact p {
+    width:15%;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    }
+
+.contact-submit {
+    height: 40px;
+    width:30%;
+}
+
+.footer {
+    width:100%;
+    height: 30px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    background-color:black ;
+    line-height: 30px;
 }
